@@ -53,7 +53,6 @@ flow_compiler.py           # graph -> prompt text (Phase A)
 agent_resolver.py          # inbound number -> bot -> published version
 campaign_dialer_worker/    # feeds leads to the external dialer
 alert_worker/              # evaluates alert rules, opens incidents
-callback_worker/           # post-call analysis + callback delivery
 frontend/src/
   views/                   # Bots, Builder, FlowBuilder, WorkflowBuilder,
                            #   Campaigns, Analytics, Transcripts, Admin…
