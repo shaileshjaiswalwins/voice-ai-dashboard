@@ -4,6 +4,11 @@ An explorable architecture map of a no-code platform for voice AI — the system
 that let product managers build, test, dial and monitor production phone agents
 without touching a server.
 
+![Walkthrough of the twelve chapters](media/dashboard-walkthrough.gif)
+
+<sub>Twelve chapters, each adding a few components. Hover to read, click to pin,
+`→` to go inside. Recorded from the real thing — clone it and it does this.</sub>
+
 Two views, one source. An **interactive isometric map** you click around, and a
 **generated document** (`SYSTEM.md`) with the decisions table, every component,
 and every open question. Both are built from a single data file.
@@ -120,6 +125,16 @@ because there is only one source.
 
 Questions carry a state: open (a string), resolved (`{q, r}` with the answer), or
 routed (`{q, to}`). Currently **28 open · 8 resolved**.
+
+---
+
+## The whole platform
+
+![All seventeen components at once](media/dashboard-full.png)
+
+The final chapter, with every component revealed and a flow picker at bottom
+left. Regenerate the media with `node atlas/build.mjs` and re-recording the
+chapters from `atlas.html`.
 
 ---
 
